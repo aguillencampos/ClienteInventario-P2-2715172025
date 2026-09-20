@@ -2,6 +2,8 @@ package sv.edu.utec.api;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.List;
+import sv.edu.utec.modelo.Producto;
+
 
 // Clase ProductoApi
 @JsonIgnoreProperties(ignoreUnknown = true)
