@@ -304,36 +304,65 @@ git push origin main
 Tabla producto lista.
 
 --- Inventario inicial ---
-ID    PRODUCTO                  CANTIDAD
-1     Teclado mecanico          15
-2     Monitor 24 pulgadas       8
+ID    PRODUCTO                    CANTIDAD
+1     Essence Mascara Lash Princess          0
+2     Eyeshadow Palette with Mirror          0
+3     Powder Canister                    0
+4     Red Lipstick                       0
+5     Red Nail Polish                    0
+6     Calvin Klein CK One                0
+7     Chanel Coco Noir Eau De            0
+8     Dior J'adore                       0
+9     Dolce Shine Eau de                 0
+10    Gucci Bloom Eau de                 0
 
 Respaldo generado en inventario.json
 Producto 2 actualizado.
 Producto 1 eliminado.
 
 --- Despues de los cambios ---
-ID    PRODUCTO                  CANTIDAD
-2     Monitor 24 pulgadas       12
+ID    PRODUCTO                    CANTIDAD
+2     Monitor 24 pulgadas               12
+3     Powder Canister                    0
+4     Red Lipstick                       0
+5     Red Nail Polish                    0
+6     Calvin Klein CK One                0
+7     Chanel Coco Noir Eau De            0
+8     Dior J'adore                       0
+9     Dolce Shine Eau de                 0
+10    Gucci Bloom Eau de                 0
 
-Registros restaurados desde JSON: 2
+Registros restaurados desde JSON: 1
 
 --- Inventario final ---
-ID    PRODUCTO                  CANTIDAD
-1     Teclado mecanico          15
-2     Monitor 24 pulgadas       12
+ID    PRODUCTO                    CANTIDAD
+1     Essence Mascara Lash Princess          0
+2     Monitor 24 pulgadas               12
+3     Powder Canister                    0
+4     Red Lipstick                       0
+5     Red Nail Polish                    0
+6     Calvin Klein CK One                0
+7     Chanel Coco Noir Eau De            0
+8     Dior J'adore                       0
+9     Dolce Shine Eau de                 0
+10    Gucci Bloom Eau de                 0
 
 Sincronizacion con la API -> insertados: 0 | actualizados: 10
 
 --- Inventario sincronizado ---
-ID    PRODUCTO                           CANTIDAD
-1     Teclado mecanico                   15
-2     Monitor 24 pulgadas                12
-3     Essence Mascara Lash Princess      99
-4     Eyeshadow Palette with Mirror      34
-5     Powder Canister                    89
-6     Gucci Bloom Eau de                 91
-... (resto de productos sincronizados)
+ID    PRODUCTO                    CANTIDAD
+1     Essence Mascara Lash Princess          0
+2     Eyeshadow Palette with Mirror          0
+3     Powder Canister                    0
+4     Red Lipstick                       0
+5     Red Nail Polish                    0
+6     Calvin Klein CK One                0
+7     Chanel Coco Noir Eau De            0
+8     Dior J'adore                       0
+9     Dolce Shine Eau de                 0
+10    Gucci Bloom Eau de                 0
+
+Process finished with exit code 0
 
 ```
 
