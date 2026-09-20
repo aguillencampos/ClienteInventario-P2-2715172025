@@ -296,14 +296,61 @@ git push origin main
 
 ## Parcial 2 — Consumo de API (completar por el estudiante)
 
-**Nombre:** _________________________________ · **Carnet:** ______________
+**Nombre:** Guillen Campos Alejandra Carolina · **Carnet:** 27-1517-2025
 
 ### Salida de consola (segunda ejecución)
 
 ```
-(pegue aquí la salida completa de la segunda ejecución de Main)
+Tabla producto lista.
+
+--- Inventario inicial ---
+ID    PRODUCTO                  CANTIDAD
+1     Teclado mecanico          15
+2     Monitor 24 pulgadas       8
+
+Respaldo generado en inventario.json
+Producto 2 actualizado.
+Producto 1 eliminado.
+
+--- Despues de los cambios ---
+ID    PRODUCTO                  CANTIDAD
+2     Monitor 24 pulgadas       12
+
+Registros restaurados desde JSON: 2
+
+--- Inventario final ---
+ID    PRODUCTO                  CANTIDAD
+1     Teclado mecanico          15
+2     Monitor 24 pulgadas       12
+
+Sincronizacion con la API -> insertados: 0 | actualizados: 10
+
+--- Inventario sincronizado ---
+ID    PRODUCTO                           CANTIDAD
+1     Teclado mecanico                   15
+2     Monitor 24 pulgadas                12
+3     Essence Mascara Lash Princess      99
+4     Eyeshadow Palette with Mirror      34
+5     Powder Canister                    89
+6     Gucci Bloom Eau de                 91
+... (resto de productos sincronizados)
+
 ```
 
 ### Uso de inteligencia artificial
 
-(Declare si utilizó alguna herramienta de IA, cuál y para qué. Si no la utilizó, indíquelo.)
+
+---
+
+Declaración:  
+Si utilicé inteligencia artificial (Microsoft Copilot) para:
+- Generar ejemplos de código Java con `HttpClient`, `ObjectMapper` y servicios de sincronización.
+- Redactar explicaciones paso a paso y plantillas de integración en `Main`.
+- Auxiliarme en dudas sobres el funcionamiento de Git.
+- Elaborar este README con la estructura solicitada.
+
+La IA se usó como apoyo para acelerar la escritura y asegurar buenas prácticas, pero la ejecución, pruebas y validación fueron realizadas manualmente.
+
+---
+
+
