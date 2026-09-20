@@ -66,7 +66,7 @@ public class Main {
             System.out.println("Error al leer o escribir el archivo JSON/API: " + e.getMessage());
         } catch (InterruptedException e) {
             System.out.println("Error de interrupción: " + e.getMessage());
-            Thread.currentThread().interrupt(); // buena práctica
+            Thread.currentThread().interrupt();
         }
     }
 

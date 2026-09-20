@@ -2,9 +2,10 @@ package sv.edu.utec.servicio;
 
 import sv.edu.utec.api.ProveedorAPI;
 import sv.edu.utec.modelo.Producto;
-import sv.edu.utec.dao.ProductoDAO;
+import sv.edu.utec.datos.ProductoDAO;
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.List;
 
 public class SincronizacionService {
@@ -19,7 +20,7 @@ public class SincronizacionService {
     }
 
     // 2. Método sincronizar
-    public int[] sincronizar(int limite) throws IOException, InterruptedException {
+    public int[] sincronizar(int limite) throws IOException, InterruptedException, SQLException {
         int insertados = 0;
         int actualizados = 0;
 
